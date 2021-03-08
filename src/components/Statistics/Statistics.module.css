@@ -1,0 +1,17 @@
+.statistics {
+  width: 300px;
+  margin: auto;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: rgb(190, 220, 248);
+  border: 1px solid grey;
+}
+
+.statistics__list {
+  list-style: none;
+  text-align: left;
+}
+
+.statistics__item:not(:last-child) {
+  margin-bottom: 10px;
+}

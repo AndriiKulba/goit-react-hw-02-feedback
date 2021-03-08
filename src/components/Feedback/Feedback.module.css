@@ -1,0 +1,14 @@
+.button {
+  display: inline;
+  width: 85px;
+  font-weight: 700;
+  border: 1px solid grey;
+  border-radius: 5%;
+  background-color: rgb(110, 204, 233);
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  text-transform: capitalize;
+}
+.button:not(:last-child) {
+  margin-right: 10px;
+}
